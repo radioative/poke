@@ -1,0 +1,68 @@
+ 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.login {
+
+    align-items: center;
+    
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 530px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+.form-signin input[type="text"] {
+    border-radius: 0;
+    margin-bottom:40px;
+    padding:20px;
+}
+
+
+.mensagem {
+    margin-top:80px;
+}
+
+
+.placar {
+
+    border: 2px solid #ccc;
+
+    margin: 10px;
+    padding:20px;
+    text-align: center;
+
+}
+
+#combate {
+ 
+    border: 2px solid #ddd;
+    margin: 10px;
+    padding:20px;
+    text-align: center;
+
+}
+
+.card {
+
+    margin:10px;
+    padding: 15px;
+
+}
+
+.card_escolhido {
+
+     border: 5px solid #f00;
+
+}
