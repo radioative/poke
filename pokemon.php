@@ -40,7 +40,7 @@ include_once "con.php";
         <div class="container-fluid">
 
 
-            <h5><?=$_SESSION['usuario']['nome']?> <a class=' btn btn-lg btn-link' href='index.php'>Sair</a></h5>  
+            <h3>Usuário: <?=$_SESSION['usuario']['nome']?> <a class=' btn btn-lg btn-link' href='index.php'>Sair</a></h3>  
             
             
       
@@ -59,7 +59,7 @@ include_once "con.php";
                 
                    <h2> Usuario não encontrado</h2><br /><br /><br /><br />
 
-                   <a class=' btn btn-lg btn-success' href='index.php' target='_blank'> Clique aqui para selecionar um usuario</a>
+                   <a class=' btn btn-lg btn-success' href='index.php'> Clique aqui para selecionar um usuario</a>
                    
 
                 </div>
@@ -95,15 +95,7 @@ include_once "con.php";
             ?>
 
 
-
-        
-            <h3>Usuario: <?=$_SESSION['id_treinador']?></h3>
-
-            
-         
-            
-            
-            
+           
      
                  
             <div class="row">
