@@ -40,7 +40,7 @@ include_once "con.php";
         <div class="container-fluid">
 
 
-            <h3>Usuário: <?=$_SESSION['usuario']['nome']?> <a class=' btn btn-lg btn-link' href='index.php'>Sair</a></h3>  
+            <h3>Usuário: <?=$_SESSION['usuario']['nome']?> <a class=' btn btn-lg btn-link' href='index.php'>Sair</a></h3> <br /> 
             
             
       
@@ -101,6 +101,7 @@ include_once "con.php";
             <div class="row">
 
 
+                <h4>Placar de troca</h4>
 
                 <div class="col-5">
                     <div class= "placar" id="player1_placar"></div>
