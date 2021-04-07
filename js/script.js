@@ -17,16 +17,18 @@ function pokemon_busca( player, card, numero_pokemon = 0 ) {
         //<input type='checkbox' id='${player}_${card}_check' onclick='calcula_combinacao(this.id, "${player}");'>
 
         var resposta = `
-            <div style='margin:20px;'
+            <div style='' class='card' align='center'
+            onclick='calcula_combinacao(this.id, "${player}");'
                 id='${player}_${card}'
                 data-id='${pokemon.data.id}'
                 data-name='${pokemon.data.name}' 
                 data-exp='${pokemon.data.base_experience}' >
 
-                Name: ${pokemon.data.name}   
-                Exp:  ${pokemon.data.base_experience} 
-                <img src='${pokemon.data.sprites.front_default}'> 
-                <button type='button' class='btn btn-sm btn-primary' onclick='calcula_combinacao(this.parentNode.id, "${player}");' >Trocar</button>
+                <h6><b>${pokemon.data.name}</b> <span style='color:#ff0000;'>${pokemon.data.base_experience}</span></h6>  
+                
+                
+                <div><img src='${pokemon.data.sprites.front_default}'> </div><br />
+                <button type='button' class='btn btn-sm btn-primary'  >Trocar</button>
 
             </div>`;
 
