@@ -112,7 +112,7 @@ include_once "con.php";
 
                 <div class="col-5">
                     <div class= "placar" id="player1_placar"></div>
-                    <div id="player1"></div>
+                    <div id="player1" class="deck"></div>
                 </div>
 
 
@@ -123,7 +123,7 @@ include_once "con.php";
 
                 <div class="col-5">
                     <div class= "placar" id="player2_placar"></div>
-                    <div id="player2"></div>
+                    <div id="player2" class="deck"></div>
                 </div>
 
 
