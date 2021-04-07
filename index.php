@@ -52,7 +52,7 @@ if ( isset ($_GET['usuario']) && $_GET['usuario'] != '') {
                 
                 $mensagem = "
                     <h5>Usuario <b>".$_SESSION['usuario']['nome']."</b> criado com sucesso! </h5> <br />
-                    <button class='w-100 btn btn-lg btn-success' href='pokemon.php'>Trocar Pokemons</button>
+                    <a class='w-100 btn btn-lg btn-success' href='pokemon.php'>Trocar Pokemons</a>
                 ";
             
             }
